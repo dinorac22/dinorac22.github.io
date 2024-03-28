@@ -41,7 +41,6 @@ body {
 /*===================SECCION NUESTRO EQUIPO MAPA==========================*/
 
 .mapa{
-    /*background: url(../img/mapa.png);*/
     width:100%;
     height:500px;
 }
@@ -182,6 +181,7 @@ footer p {
         width: 100% !important;
         text-align: center;
     }
+
     #bg-contacto{
         top: -120px;
     }   
@@ -196,8 +196,16 @@ footer p {
     .icono-wrap{
         flex-wrap: wrap;  
         justify-content: center !important;
+        padding: 0 !important;
     }
-
+    
+    .servcio-fila-contenido h3, 
+    .servcio-fila-contenido p    
+    {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    
     .wrapper{
         width: 90%;
         margin: auto;
