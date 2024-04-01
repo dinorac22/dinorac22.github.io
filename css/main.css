@@ -9,10 +9,6 @@ body {
 
 /*===================MENU==========================*/
 
-.barra{
-background: #1b2a4e !important;
-}
-
 #menu li>a {
     font-size: 18px;
     font-weight: bold;
