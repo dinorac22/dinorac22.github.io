@@ -112,6 +112,11 @@ body {
     color: #3f3f3f;
 }
 
+textarea{
+    field-sizing: content;
+    max-height: 150px;
+}
+
 /*=========================FOOTER================================*/
 
 footer{
