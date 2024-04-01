@@ -156,6 +156,11 @@ footer p {
         width: 90% !important;
         margin: auto;
     }
+    .icono-wrap{
+        flex-wrap: wrap;  
+        justify-content: center !important;
+        padding: 0 !important;
+    }
 
     #img-equipo{
         max-height: 20rem !important;
