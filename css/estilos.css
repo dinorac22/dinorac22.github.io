@@ -266,10 +266,10 @@ footer{
     } 
 }    
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 1280px) {
     header{
        background-position: center;
-       height: 1000px;   
+       height: 1200px;   
     } 
     header .logo{    
         width: 25%;
