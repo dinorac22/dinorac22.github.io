@@ -310,6 +310,7 @@ header .textos-header {
 }
  
 .wave {
+    margin-bottom: -5px;
     padding: 0;
     border: none;
 }
