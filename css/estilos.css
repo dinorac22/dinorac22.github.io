@@ -17,14 +17,13 @@ body {
 }
 header {
     width: 100%;
-    height: 900px;
+    height: 800px;
     background: #428bc3a2;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #428bc3a2, #428bc3a2);
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, hsla(206, 52%, 51%, 0.171), hsla(206, 52%, 51%, 0.177)), url(../img/portada.jpg);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: url(../img/portada.jpg);
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -294,12 +293,12 @@ header .textos-header {
 }
 
 .textos-header h1 {
-    font-size: 35px;
+    font-size: 25px;
     color: white !important;
 }
 
 .textos-header h2 {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 300;
     color: white;
 
