@@ -373,7 +373,8 @@ header .textos-header {
 
 @media screen and (max-width: 768px) {
     header{
-       background-position: center;          
+       background-position: center;   
+       height: 900px;        
     } 
    
     header .navbar{
@@ -451,7 +452,7 @@ header .textos-header {
 @media screen and (max-width: 320px) {
     header{
         background-position: center;         
-        height: 500px;  
+        height: 520px;  
      } 
 
      header .textos-header {        
