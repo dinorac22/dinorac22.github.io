@@ -18,7 +18,7 @@ body {
 
 header {
     width: 100%;
-    height: 800px;
+    height: 850px;
     background: #428bc3a2;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #428bc3a2, #428bc3a2);
@@ -423,7 +423,7 @@ footer {
     }
 
     header .textos-header {
-        height: 700px;
+        height: 650px;
     }
 
     .textos-header h1 {
@@ -490,7 +490,7 @@ footer {
     }
 
     header .textos-header {
-        height: 320px;
+        height: 300px;
     }
 
     .textos-header h1 {
