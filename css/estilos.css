@@ -15,6 +15,7 @@ body {
     margin: auto;
     overflow: hidden;
 }
+
 header {
     width: 100%;
     height: 800px;
@@ -30,23 +31,24 @@ header {
 
 }
 
-header .logo{    
+header .logo {
     width: 20%;
     height: auto;
     padding-left: 20px;
 }
 
 
- 
-.nav-item{
-    font-size:large !important;
-   
+
+.nav-item {
+    font-size: large !important;
+
 }
 
 .nav-link:hover {
     color: #05762d !important;
     transition: 0.5s;
 }
+
 #menu li>a {
     font-size: 18px;
     color: #230A4C;
@@ -73,6 +75,7 @@ header .textos-header {
     color: white;
 
 }
+
 .wave {
     position: absolute;
     bottom: -5px;
@@ -80,26 +83,26 @@ header .textos-header {
 }
 
 /*About As*/
-.contenedor-sobre-nosotros{
+.contenedor-sobre-nosotros {
     display: flex;
     justify-content: space-evenly;
-     top: 0;
+    top: 0;
 }
 
-.imagen-about-us{
+.imagen-about-us {
     width: 48%;
     height: 48%;
 }
 
-.sobre-nosotros .contenido-textos{
+.sobre-nosotros .contenido-textos {
     width: 48%;
 }
 
-.contenido-textos h3{
+.contenido-textos h3 {
     margin-bottom: 15px;
 }
 
-.contenido-textos p{
+.contenido-textos p {
     padding: 0 0 30px 15px;
     font-weight: 300;
     text-align: justify;
@@ -107,17 +110,17 @@ header .textos-header {
 
 /*Galeria*/
 
-.portafolio{
+.portafolio {
     background: #f2f2f2;
 }
 
-.galeria-port{
+.galeria-port {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
-.imagen-port{
+.imagen-port {
     width: 30%;
     height: 400px;
     margin-bottom: 20px;
@@ -127,15 +130,15 @@ header .textos-header {
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
 }
 
-.imagen-port > img{
-    width: 100%;    
+.imagen-port>img {
+    width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
-    
+
 }
 
-.hover-galeria{
+.hover-galeria {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -149,26 +152,26 @@ header .textos-header {
     flex-direction: column;
 }
 
-.hover-galeria img{
+.hover-galeria img {
     width: 50px;
 }
 
-.hover-galeria p{
+.hover-galeria p {
     color: white;
 }
 
-.imagen-port:hover .hover-galeria{
+.imagen-port:hover .hover-galeria {
     transform: scale(1);
 }
 
 /*Clients*/
 
-.cards{
+.cards {
     display: flex;
     justify-content: space-evenly;
 }
 
-.cards .card{
+.cards .card {
     background: #230A4C;
     display: flex;
     width: 46%;
@@ -179,7 +182,7 @@ header .textos-header {
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .6);
 }
 
-.cards .card img{
+.cards .card img {
     width: 100px;
     height: 100px;
     object-fit: cover;
@@ -188,30 +191,31 @@ header .textos-header {
     display: block;
 }
 
-.cards .card .contenido-texto-card{
+.cards .card .contenido-texto-card {
     width: 60%;
     color: #d1d0d0;
 }
-.cards .card .contenido-texto-card p{
+
+.cards .card .contenido-texto-card p {
     font-weight: 300;
     padding-top: 5px;
 }
 
-.about-services{
+.about-services {
     background: #f2f2f2;
-    
+
 }
 
 /*footer*/
 
-footer{
+footer {
     background: #070111;
     padding: 30px 0 30px 0;
     margin: auto;
     overflow: hidden;
 }
 
-.contenedor-footer{
+.contenedor-footer {
     display: flex;
     width: 90%;
     justify-content: space-evenly;
@@ -220,254 +224,280 @@ footer{
     border-bottom: 1px solid #ccc;
 }
 
-.content-foo{
+.content-foo {
     text-align: center;
 }
 
-.content-foo h4{
+.content-foo h4 {
     color: white;
     border-bottom: 3px solid #af20d3;
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
 
-.content-foo p{
+.content-foo p {
     color: gray;
 }
-.titulo-final{
+
+.titulo-final {
     text-align: center;
     font-size: 24px;
     margin: 0 0 0 0;
     color: #d1d0d0;
-    
+
 }
 
 @media screen and (min-width: 1600px) {
-    header{
-       background-position: center;
-       height: 1100px;   
-    } 
-    header .logo{    
+    header {
+        background-position: center;
+        height: 1100px;
+    }
+
+    header .logo {
         width: 25%;
         height: auto;
         padding: 0;
-    } 
-}    
-    
+    }
+
+    header .textos-header {
+        height: 700px;
+    }
+
+    .textos-header h1 {
+        font-size: 50px;
+        color: white !important;
+    }
+
+    .textos-header h2 {
+        font-size: 35px;
+        font-weight: 300;
+        color: white;
+
+    }
+}
+
 @media screen and (min-width: 1580px) {
-    header{
-       background-position: center;
-       height: 1000px;   
-    } 
-    header .logo{    
+    header {
+        background-position: center;
+        height: 1000px;
+    }
+
+    header .logo {
         width: 25%;
         height: auto;
         padding: 0;
-    } 
-}    
+    }
+}
 
 @media screen and (max-width: 1280px) {
-    header{
-       background-position: center;
-       height: 800px;   
-    } 
-    header .logo{    
+    header {
+        background-position: center;
+        height: 800px;
+    }
+
+    header .logo {
         width: 25%;
         height: auto;
         padding: 0;
-    } 
-}    
+    }
+}
 
 
 @media screen and (max-width: 992px) {
- header{
-    background-position: center;   
-    height: 850px; 
- } 
+    header {
+        background-position: center;
+        height: 850px;
+    }
 
- header .navbar{
-    background: white !important;
-    width: 100% !important;
-}
+    header .navbar {
+        background: white !important;
+        width: 100% !important;
+    }
 
-header .logo{    
-    width: 25%;
-    height: auto;
-    padding: 0;
-} 
+    header .logo {
+        width: 25%;
+        height: auto;
+        padding: 0;
+    }
 
- 
-.nav-item{
-    font-size:large !important;
-   
-}
 
-.nav-link:hover {
-    color: #05762d !important;
-    transition: 0.5s;
-}
-#menu li>a {
-    font-size: 18px;
-    color: #230A4C;
-}
+    .nav-item {
+        font-size: large !important;
 
-header .textos-header {
-    display: flex;
-    height: 750px;
-    width: 100%;
-    align-items: right;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
+    }
 
-.textos-header h1 {
-    font-size: 45px;
-    color: white !important;
-}
+    .nav-link:hover {
+        color: #05762d !important;
+        transition: 0.5s;
+    }
 
-.textos-header h2 {
-    font-size: 40px;
-    font-weight: 300;
-    color: white;
+    #menu li>a {
+        font-size: 18px;
+        color: #230A4C;
+    }
 
-}
- 
-.wave {
-    padding: 0;
-    border: none;
-}
+    header .textos-header {
+        display: flex;
+        height: 750px;
+        width: 100%;
+        align-items: right;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
 
- .contenedor-sobre-nosotros{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-    margin-top: 0;
- }
- .sobre-nosotros .contenido-textos{
-    width: 90%;
- }
- .imagen-about-us{
-    width: 90%;
- }
+    .textos-header h1 {
+        font-size: 45px;
+        color: white !important;
+    }
 
- /*Galeria*/
- .imagen-port{
-    width: 45%;
- }
- /*Clientes*/
- .cards{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
- }
-.cards .card{
-    width: 90%;
-}
-.cards .card:first-child{
-    margin-bottom: 30px;
-}
+    .textos-header h2 {
+        font-size: 40px;
+        font-weight: 300;
+        color: white;
+
+    }
+
+    .wave {
+        padding: 0;
+        border: none;
+    }
+
+    .contenedor-sobre-nosotros {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        margin-top: 0;
+    }
+
+    .sobre-nosotros .contenido-textos {
+        width: 90%;
+    }
+
+    .imagen-about-us {
+        width: 90%;
+    }
+
+    /*Galeria*/
+    .imagen-port {
+        width: 45%;
+    }
+
+    /*Clientes*/
+    .cards {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cards .card {
+        width: 90%;
+    }
+
+    .cards .card:first-child {
+        margin-bottom: 30px;
+    }
 
 }
 
 @media screen and (max-width: 768px) {
-    header{
-       background-position: center;   
-       height: 1000px;        
-    } 
-   
-    header .navbar{
-       background: white !important;
-       width: 100% !important;
-   }
-   
-   header .logo{    
-       width: 30%;
-       height: auto;
-       padding: 0;
-   }
+    header {
+        background-position: center;
+        height: 1000px;
+    }
 
-   header .textos-header {        
-    height: 600px;        
-}
-
-   .textos-header h1 {
-    font-size: 35px;
-    color: white !important;
-}
-
-.textos-header h2 {
-    font-size: 30px;
-    font-weight: 300;
-    color: white;
-
-}
- }
-
-
-@media screen and (max-width: 500px) {
-    header{
-        background-position: center;         
-        height: 700px;  
-     } 
-    
-     header .navbar{
+    header .navbar {
         background: white !important;
         width: 100% !important;
     }
-    
-    header .logo{    
+
+    header .logo {
+        width: 30%;
+        height: auto;
+        padding: 0;
+    }
+
+    header .textos-header {
+        height: 650px;
+    }
+
+    .textos-header h1 {
+        font-size: 35px;
+        color: white !important;
+    }
+
+    .textos-header h2 {
+        font-size: 30px;
+        font-weight: 300;
+        color: white;
+
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    header {
+        background-position: center;
+        height: 700px;
+    }
+
+    header .navbar {
+        background: white !important;
+        width: 100% !important;
+    }
+
+    header .logo {
         width: 45%;
         height: auto;
         padding: 0;
-    } 
+    }
 
-    header .textos-header {        
-        height: 450px;        
+    header .textos-header {
+        height: 450px;
     }
 
     .textos-header h1 {
         font-size: 23px;
         color: white !important;
     }
-    
+
     .textos-header h2 {
         font-size: 18px;
         font-weight: 300;
         color: white;
-    
-    }
-    
-     .imagen-port{
-        width: 90%;
-     }
 
-     .cards .card .contenido-texto-card{
+    }
+
+    .imagen-port {
+        width: 90%;
+    }
+
+    .cards .card .contenido-texto-card {
         width: 90%;
         color: #d1d0d0;
     }
 }
 
 @media screen and (max-width: 320px) {
-    header{
-        background-position: center;         
-        height: 520px;  
-     } 
-
-     header .textos-header {        
-        height: 350px;        
+    header {
+        background-position: center;
+        height: 520px;
     }
-    
+
+    header .textos-header {
+        height: 320px;
+    }
+
     .textos-header h1 {
-        font-size: 20px;
+        font-size: 18px;
         color: white !important;
     }
-    
+
     .textos-header h2 {
         font-size: 15px;
         font-weight: 300;
         color: white;
-    
+
     }
 }
