@@ -242,6 +242,18 @@ footer{
     
 }
 
+@media screen and (max-width: 1200px) {
+    header{
+       background-position: center;
+       height: 1000px;   
+    } 
+    header .logo{    
+        width: 25%;
+        height: auto;
+        padding: 0;
+    } 
+}    
+   
 
 @media screen and (max-width: 992px) {
  header{
@@ -354,7 +366,8 @@ header .textos-header {
 
 @media screen and (max-width: 500px) {
     header{
-        background-position: center;           
+        background-position: center;         
+        height: 700px;  
      } 
     
      header .navbar{
