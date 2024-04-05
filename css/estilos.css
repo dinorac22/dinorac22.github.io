@@ -287,6 +287,10 @@ footer {
         height: auto;
         padding: 0;
     }
+
+    header .textos-header {
+        height: 450px;
+    }
 }
 
 @media screen and (max-width: 1280px) {
@@ -419,7 +423,7 @@ footer {
     }
 
     header .textos-header {
-        height: 650px;
+        height: 700px;
     }
 
     .textos-header h1 {
@@ -486,7 +490,7 @@ footer {
     }
 
     header .textos-header {
-        height: 320px;
+        height: 350px;
     }
 
     .textos-header h1 {
