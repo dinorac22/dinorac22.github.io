@@ -242,7 +242,7 @@ footer{
     
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1600px) {
     header{
        background-position: center;
        height: 1000px;   
@@ -258,6 +258,7 @@ footer{
 @media screen and (max-width: 992px) {
  header{
     background-position: center;   
+    height: 1100px; 
  } 
 
  header .navbar{
@@ -288,7 +289,7 @@ header .logo{
 
 header .textos-header {
     display: flex;
-    height: 550px;
+    height: 750px;
     width: 100%;
     align-items: right;
     justify-content: center;
@@ -297,12 +298,12 @@ header .textos-header {
 }
 
 .textos-header h1 {
-    font-size: 25px;
+    font-size: 45px;
     color: white !important;
 }
 
 .textos-header h2 {
-    font-size: 20px;
+    font-size: 40px;
     font-weight: 300;
     color: white;
 
@@ -361,6 +362,22 @@ header .textos-header {
        height: auto;
        padding: 0;
    }
+
+   header .textos-header {        
+    height: 600px;        
+}
+
+   .textos-header h1 {
+    font-size: 35px;
+    color: white !important;
+}
+
+.textos-header h2 {
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+
+}
  }
 
 
@@ -380,6 +397,22 @@ header .textos-header {
         height: auto;
         padding: 0;
     } 
+
+    header .textos-header {        
+        height: 450px;        
+    }
+
+    .textos-header h1 {
+        font-size: 23px;
+        color: white !important;
+    }
+    
+    .textos-header h2 {
+        font-size: 18px;
+        font-weight: 300;
+        color: white;
+    
+    }
     
      .imagen-port{
         width: 90%;
@@ -388,5 +421,28 @@ header .textos-header {
      .cards .card .contenido-texto-card{
         width: 90%;
         color: #d1d0d0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    header{
+        background-position: center;         
+        height: 500px;  
+     } 
+
+     header .textos-header {        
+        height: 350px;        
+    }
+    
+    .textos-header h1 {
+        font-size: 20px;
+        color: white !important;
+    }
+    
+    .textos-header h2 {
+        font-size: 15px;
+        font-weight: 300;
+        color: white;
+    
     }
 }
