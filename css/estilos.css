@@ -345,7 +345,7 @@ header .textos-header {
    }
    
    header .logo{    
-       width: 25%;
+       width: 30%;
        height: auto;
        padding: 0;
    }
@@ -371,4 +371,9 @@ header .textos-header {
      .imagen-port{
         width: 90%;
      }
+
+     .cards .card .contenido-texto-card{
+        width: 90%;
+        color: #d1d0d0;
+    }
 }
