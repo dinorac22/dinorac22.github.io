@@ -17,7 +17,7 @@ body {
 }
 header {
     width: 100%;
-    height: 800px;
+    height: 900px;
     background: #428bc3a2;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #428bc3a2, #428bc3a2);
@@ -75,7 +75,7 @@ header .textos-header {
 }
 .wave {
     position: absolute;
-    bottom: 0;
+    bottom: -5px;
     width: 100%;
 }
 
@@ -97,19 +97,6 @@ header .textos-header {
 
 .contenido-textos h3{
     margin-bottom: 15px;
-}
-
-.contenido-textos h3 span{
-    background: #4d0686 ;
-    color: white;
-    border-radius: 50%;
-    display:inline-block;
-    text-align: center;
-    width: 30px;
-    height: 30px;
-    padding: 2px;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
-    margin-right: 5px;
 }
 
 .contenido-textos p{
@@ -310,7 +297,6 @@ header .textos-header {
 }
  
 .wave {
-    margin-bottom: -5px;
     padding: 0;
     border: none;
 }
@@ -350,8 +336,7 @@ header .textos-header {
 
 @media screen and (max-width: 768px) {
     header{
-       background-position: center;   
-       
+       background-position: center;          
     } 
    
     header .navbar{
@@ -369,8 +354,7 @@ header .textos-header {
 
 @media screen and (max-width: 500px) {
     header{
-        background-position: center;   
-        
+        background-position: center;           
      } 
     
      header .navbar{
