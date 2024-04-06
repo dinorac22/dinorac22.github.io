@@ -443,7 +443,7 @@ footer {
 @media screen and (max-width: 500px) {
     header {
         background-position: center;
-        height: 700px;
+        height: 800px;
     }
 
     header .navbar {
